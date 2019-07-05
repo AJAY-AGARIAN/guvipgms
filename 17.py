@@ -1,0 +1,10 @@
+u=int(input())
+u1=u
+d=0
+while(u>1):
+    c=0
+    c=int(u%10)
+    print(c)
+    d=d+(c**3)
+    u=u/10
+    print(d)
