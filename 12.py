@@ -6,6 +6,6 @@ while(f>0):
     f=int((f-g)/10)
     d=(d*10)+g
 if(d==f1):
-    print('Yes')
+    print('yes')
 else:
-    print('No')
+    print('no')
