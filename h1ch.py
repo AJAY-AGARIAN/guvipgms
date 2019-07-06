@@ -7,9 +7,10 @@ for j in range(0,k):
 p=[]
 for j in range(0,len(i)):
     for k in range(j+1,len(i)):
-        if(i[j]==i[k]):
-            p.append(i[j])
-            no=no+1
+        if(i[1:]!=i[:-1]):
+            if(i[j]==i[k]):
+                p.append(i[j])
+                no=no+1
 if(no==0):
     print('unique')
 elif p:
